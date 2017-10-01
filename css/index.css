@@ -1,0 +1,132 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400');
+@import url('https://fonts.googleapis.com/css?family=Economica:400,400i');
+@import url('https://fonts.googleapis.com/css?family=Nova+Square');
+
+
+@font-face {
+   font-family: 'agency';
+   src: url('../fonts/AGENCYR.TTF')format('truetype');
+}
+
+*{
+	margin: 0px;
+	padding: 0px;	
+}
+.no-margin{
+	margin: 0px;	
+}
+.no-padding{
+	padding: 0px;	
+}
+.clear{
+	clear:both;	
+}
+.red {
+	color: red;	
+}
+.white{
+	color: white;	
+}
+.blue{
+	color: blue;	
+}
+.bg_white{
+	background: white;	
+}
+.bg_blue{
+	background: blue;	
+}
+.black{
+	color: black;	
+}
+.green {
+	color: green;
+}
+.shadow1{
+	box-shadow: 0px 0px 2px 0px black;	
+}
+.oswald{font-family: oswald_regular;}
+.orator{
+	font-family: OratorStd, Cambria, "OCR A Std";
+}
+.agency{font-family: agency, "Agency FB", Arial, "Arial Narrow";
+}
+.text {
+	font-size: 1.4em;
+}
+body{
+	background: rgba(221,221,255,1);
+	background: white;
+	position: relative;
+}
+body a{
+transition: 0.5s all ease;
+-webkit-transition: 0.5s all ease;
+-moz-transition: 0.5s all ease;
+-o-transition: 0.5s all ease;
+-ms-transition: 0.5s all ease;
+}
+a:hover{text-decoration: none;}
+
+
+footer{
+	padding: 0px 10px;
+	margin-top: 8px;
+	width: 100%;font-size: 1.3em;
+	font-family:agency, argosgeorgeregular, Calibri, "Cambria Math";background: rgba(0,0,140,1);color: rgba(191,191,255,1);
+}
+footer h3{
+	font-family:argosgeorgeregular;
+	_text-shadow: 1px 1px 0px #666;	
+	font-weight: bold;font-size: 1.4em;
+}
+footer ul{
+	list-style: none;	
+}
+.footer_sect{
+	padding-left: 5%;
+}
+.sect1{
+	padding-left: 40%;	
+}
+.footer_cent{
+	text-align: center; border-top: 1px dashed rgba(247,247,247,.8);	
+	font-style:italic; color:rgba(247,247,247,.4);
+}
+.arrow_up{
+	background: rgba(2,4,83,1.00); width:4%;text-align: center;
+	font-size: 3em; margin: 1%;height: 45px;	border-radius: 2px;
+	display: none;position: fixed; bottom: 30px; right: 10px;color:white;transition: 0.5s all ease;
+-webkit-transition: 0.5s all ease;
+-moz-transition: 0.5s all ease;
+-o-transition: 0.5s all ease;
+-ms-transition: 0.5s all ease;z-index: 100;
+}
+.arrow_up:hover{cursor:pointer; background: white; color:rgba(2,4,83,1.00);}
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+	#site_intro h1{font-size: 1.4em;}
+p.title1, p.title{
+	font-size: 1em;font-weight: 100;
+}
+.p_1{font-size: 1em; left: 0px; padding: 0px;font-weight: 100;}
+	header ul{margin: 0px 0 0 15%;}
+	aside{
+		width: 20%;margin-left: 10px;}
+	.gall{
+	margin-left: 3%;	
+	padding: 0 0% 0 30%;
+}
+#aside_right{
+	width: 20%/*160px*/;margin-right: 10px;
+}
+.pro{
+	padding: 0 0px 0 20%;	
+}
+.cont{
+	margin-left: 3%;	
+	padding: 0 0px 0 30%;
+}
+}
