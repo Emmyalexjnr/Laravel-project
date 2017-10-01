@@ -23,6 +23,7 @@ require_once("includes/initialize.php");
 <body>
 <div class="container-fluid">
     <h2>Naveteur Test</h2>
+    <h3>I am testing git hub</h3>
     <div class="panel panel-default">
         <div class="panel-heading">
             <h2 class="panel-title">Form submission</h2>
